@@ -10,7 +10,7 @@ while (productoIngresado !== 'ESC') {
     productoIngresado = prompt('Ingrese el nombre del producto, para terminar ingrese ESC');
 
 }
-alert('los productos que usted va a comprar son:' + listaDeProductos);
+alert('los productos que usted va a comprar son: ' + listaDeProductos);
 
 total = 0
 
@@ -27,4 +27,4 @@ function ingresarCosto(){
     }
 }
 ingresarCosto();
-alert('la suma de total de los costos es de: ' + total);
+alert('la suma de total de los costos es de:$ ' + total + ' .Gracias por su compra');
